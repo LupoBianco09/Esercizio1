@@ -11,3 +11,50 @@ public static void main (String args[]) {
 	System.out.println("Il valore medio di questo array e' " + media);
 }
 }
+
+//SOLUZIONE IN OUTPUT (Mod. easy)
+class Media {
+	int x;
+	int y;
+	int z;
+	int a;
+	int b;
+	int c;
+	int d;
+	int e;
+	int f;
+	int g;
+		
+	Media(int x,int y, int z, int a, int b, int c, int d, int e, int f, int g) {
+		this.x = x;
+		this.y = y;
+		this.z = z;
+		this.a = a;
+		this.b = b;
+		this.c = c;
+		this.d = d;
+		this.e = e;
+		this.f = f;
+		this.g = g;
+	}
+}
+
+class ValoreMedio3 {
+	public static void main (String args[]) {
+		if(args.length != 10)
+			System.out.println("Inserisci 10 numeri");
+		else {
+			int x = Integer.parseInt(args[0]);
+			int y = Integer.parseInt(args[1]);
+			int z = Integer.parseInt(args[2]);
+			int a = Integer.parseInt(args[3]);
+			int b = Integer.parseInt(args[4]);
+			int c = Integer.parseInt(args[5]);
+			int d = Integer.parseInt(args[6]);
+			int e = Integer.parseInt(args[7]);
+			int f = Integer.parseInt(args[8]);
+			int g = Integer.parseInt(args[9]);
+			System.out.println((x+y+z+a+b+c+d+e+f+g)/10);
+		}
+	}
+}
