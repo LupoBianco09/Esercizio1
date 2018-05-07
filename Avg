@@ -1,5 +1,13 @@
-class Avg {
-public static void main(String args[]) {
+class ValoreMedio {
 
+public static void main (String args[]) {
+	int nums [] = {4, 9, 15, 24, 27, 6, 3, 10, 23, 92};
+	float media = 0;
+	int somma = 0;
+	for(int i =0; i < 10; i++){ 
+	somma = somma+nums[i];
+	}
+	media = somma/10;
+	System.out.println("Il valore medio di questo array e' " + media);
 }
 }
